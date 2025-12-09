@@ -113,7 +113,7 @@ for index, row in df.iterrows():
         # ----------------------------
         bot_localizar = driver.find_element(By.XPATH, "//input[@value='Localizar Ponto']")
         bot_localizar.click()
-        time.sleep(1)
+        wait.until(lambda d: d.find_element(By.ID, "cb_Cidade").get_attribute("value").strip() != "")
 
         # ----------------------------
         # 5) Incluir cobertura
