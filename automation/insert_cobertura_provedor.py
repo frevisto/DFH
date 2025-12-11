@@ -126,7 +126,6 @@ for index, row in df.iterrows():
         # ----------------------------
         try:
             alerta = wait.until(EC.alert_is_present())
-            time.sleep(1)
             print("Alerta recebido:", alerta.text)
             alerta.accept()
         except:
