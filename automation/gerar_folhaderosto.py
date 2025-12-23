@@ -283,7 +283,7 @@ def mostrar_instrucoes_lote():
 
     instrucoes = (
         "• Não altere os nomes das colunas, no cabeçalho.\n"
-        "• Cada linha da planilha gera uma folha de rosto.\n"
+        "• Os arquivos serão gerados no diretório outdir.\n"
         "• Campos opcionais podem permanecer em branco.\n"
         "• O nome do arquivo será definido pelo campo 'Cliente Final'."
     )
