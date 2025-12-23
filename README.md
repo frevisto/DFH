@@ -15,5 +15,5 @@
 - Execute com > py ./automation/insert_cobertura_provedor.py
 
 ### gerar_folhaderosto.py
-- Para **insert_cobertura_provedor.py**, certifique-se de instalar as dependências listadas nos imports.
+- Para **gerar_folhasderosto.py**, certifique-se de instalar as dependências listadas nos imports.
 - Execute com > py ./automation/gerar_folhaderosto.py
