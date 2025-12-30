@@ -17,3 +17,15 @@
 ### gerar_folhaderosto.py
 - Para **insert_cobertura_provedor.py**, certifique-se de instalar as dependências listadas nos imports.
 - Execute com > py ./automation/gerar_folhaderosto.py
+
+## Cotações Vivo
+### gerar_mescla.py
+- Instalar dependências
+- Executar gerar_mescla.py com o python
+- Selecione o diretório com os arquivos xlsx s/ valores cotados
+- Selecionar nome e caminho para a Mescla com todas os pontos a serem cotados
+
+### separar_cotações.py
+- Instalar dependências
+- Selecionar planilha Mescla com os valores propostos (cotada)
+- Processamento gerará novamente os arquivos xlsx originais, porém com as cotações preenchidas, no diretório "./outdir/{Nome_Mescla}/", prontos para o upload no portal da Vivo.
