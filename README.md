@@ -29,4 +29,4 @@
 ### separar_cotações.py
 - Instalar dependências
 - Selecionar planilha Mescla com os valores propostos (cotada)
-- Processamento gerará novamente os arquivos xlsx originais, porém com as cotações preenchidas, no diretório "./outdir/{Nome_Mescla}/", prontos para o upload no portal da Vivo.
+- Processamento gerará novamente os arquivos xlsx originais, porém com as cotações preenchidas, no diretório "./outdir/{Nome_Mescla}/", prontos para o upload no portal B2B da Vivo.
